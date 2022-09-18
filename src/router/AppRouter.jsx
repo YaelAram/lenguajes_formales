@@ -9,9 +9,9 @@ export function AppRouter() {
         <React.Fragment>
             <NavBar />
             <Routes>
-                <Route path="/a_machine" element={ <AMachine /> } />
-                <Route path="/c_machine" element={ <CMachine /> } />
-                <Route path="/*" element={ <Navigate to="/a_machine" /> } />
+                <Route path="/lenguajes_formales/a_machine" element={ <AMachine /> } />
+                <Route path="/lenguajes_formales/c_machine" element={ <CMachine /> } />
+                <Route path="/lenguajes_formales/*" element={ <Navigate to="/lenguajes_formales/a_machine" /> } />
             </Routes>
         </React.Fragment>
     );

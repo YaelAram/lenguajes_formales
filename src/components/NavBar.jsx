@@ -8,10 +8,10 @@ export function NavBar() {
         <nav>
             <ul>
                 <li>
-                    <NavLink to="/lenguajes_formales/a_machine" className={ activeClass }>Automatic Machine</NavLink>
+                    <NavLink to="/a_machine" className={ activeClass }>Automatic Machine</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/lenguajes_formales/c_machine" className={ activeClass }>Choice Machine</NavLink>
+                    <NavLink to="/c_machine" className={ activeClass }>Choice Machine</NavLink>
                 </li>
             </ul>
         </nav>

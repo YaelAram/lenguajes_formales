@@ -1,4 +1,3 @@
-export * from './NavBar';
 export * from './Scan';
 export * from './ScanCMachine';
 export * from './Status';

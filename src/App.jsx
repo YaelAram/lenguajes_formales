@@ -1,8 +1,11 @@
 import React from 'react';
-import { AppRouter } from './router/AppRouter';
+import { AMachine, CMachine } from './pages';
 
 export function App() {
     return (
-        <AppRouter />
+        <React.Fragment>
+            <AMachine/>
+            <CMachine />
+        </React.Fragment>
     );
 };

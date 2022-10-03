@@ -8,7 +8,7 @@ export function Scan( { tape, updateResult } ) {
 
     const handleClick = () => handleAction( `${ state }-${ tape[ position ] }` );
 
-    useEffect( () => updateResult( result ), [ position ])
+    useEffect( () => updateResult( result ), [ position ] );
 
     return (
         <React.Fragment>
